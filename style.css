@@ -1,0 +1,411 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fafafa;
+    color: #fff;
+}
+
+
+.nav-bar-top {
+    background-color: teal;
+    padding: 1rem;
+}
+
+.nav-links {
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: right;
+    width: 100%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    background: rgba(0, 0, 0, 0.7) !important;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* isso separa logo e menu */
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ccc;
+}
+
+
+
+
+
+
+@media (min-width: 300px) {
+    .container-formulario form {
+        width: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .header {
+        background-image: url(https://images3.alphacoders.com/134/thumb-1920-1342988.png);
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .navbarResponsiva {
+        display: flex !important;
+        flex-basis: auto;
+    }
+
+    .container-formulario form {
+        width: 600px;
+    }
+}
+
+@media (min-width: 992px) {
+    .li {
+        margin-right: 0.25rem !important;
+        margin-left: 0.25rem !important;
+    }
+
+
+}
+
+
+
+
+.header {
+    background-image: url(https://preview.colorlib.com/theme/brber/assets/img/hero/hero2.png.webp);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 450px;
+    position: absolute;
+}
+
+.logo img {
+    width: 100%;
+}
+
+div.header::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.navbar {
+    background-color: #bd032b;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    padding: 30px;
+
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+ul.nav-link {
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    height: 100%;
+    gap: 15px;
+    max-width: 100%;
+    width: 100%;
+
+
+}
+
+#top-villains .content {
+    background-image: url(https://images8.alphacoders.com/621/thumb-1920-621482.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+a.btn.btn-primary {
+    margin-top: 5px;
+}
+
+.offcanvas-header {
+    background: #bd032b;
+    padding: 10px;
+}
+
+.offcanvas-body {
+    background: #bd032b;
+}
+
+.botao {
+    margin-top: -15px;
+    color: #ce2340;
+
+}
+
+.card-body-kakashi {
+    background-image: url(https://images.alphacoders.com/133/thumb-1920-1337463.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    color: #ffffff;
+    width: 300px;
+    height: 190px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card-body-timesete {
+    background-image: url(https://images7.alphacoders.com/605/thumb-1920-605596.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    width: 300px;
+    height: 190px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card-body-konoha {
+    background-image: url(https://images3.alphacoders.com/602/thumb-1920-602092.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    width: 300px;
+    height: 190px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.d-flex {
+    justify-content: space-evenly;
+}
+
+h5.card-title {
+    text-align: center;
+    color: #464646;
+}
+
+div#top-heroes.content {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+div#top-villains.content {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.card-body-madara {
+    background-image: url(https://images8.alphacoders.com/644/thumb-1920-644154.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    width: 300px;
+    height: 190px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card-body-pain {
+    background-image: url(https://images4.alphacoders.com/769/thumb-1920-769856.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    width: 300px;
+    height: 190px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card-body-itachi {
+    background-image: url(https://images3.alphacoders.com/132/1328396.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    width: 300px;
+    height: 190px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+.text {
+    font-family: sans-serif;
+    font-size: 20px;
+    border-right: 5px solid;
+    animation: typing 2.5s steps(22),
+        cursor .4s step-end infinite alternate;
+}
+
+.container-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-container {
+    flex-wrap: wrap;
+}
+
+footer * {
+    color: aqua !important;
+}
+
+footer {
+    background: #333;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+
+
+.menu-topicos {
+    padding: 10px;
+}
+
+.titulo-menu {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.lista-topicos {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-topicos li {
+    margin-bottom: 10px;
+}
+
+.lista-topicos a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.lista-topicos a:hover {
+    text-decoration: underline;
+}
+
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0);
+    /* transparente */
+    backdrop-filter: blur(1px);
+    /* desfoque de fundo */
+    z-index: 1000;
+    color: #fff;
+}
+
+.navbar a {
+    color: #FFA000;
+    text-decoration: none;
+    margin-left: 2rem;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #FFEE58;
+}
+
+
+
+
+.planoh1,
+.planoh2,
+.planoh3 {
+
+    padding: 15px;
+    color: #464646;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.animate__animated-animate__FadeInUp {
+
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: bounce;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+
+}
