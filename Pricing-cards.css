@@ -61,15 +61,15 @@ small.text-muted {
 }
 
 .pro-header {
-    background: linear-gradient(45deg, #333, #ff5200);
+    background: linear-gradient(45deg, #333, #ff0000);
 }
 
 .basic-header {
-    background: linear-gradient(45deg, #333, #ff5200);
+    background: linear-gradient(45deg, #333, #ff0000);
 }
 
 .enterprise-header {
-    background: linear-gradient(45deg, #333, #ff5200);
+    background: linear-gradient(45deg, #333, #ff0000);
 }
 
 

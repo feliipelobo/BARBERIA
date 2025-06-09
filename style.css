@@ -374,14 +374,14 @@ footer {
 }
 
 .navbar a {
-    color: #FFA000;
+    color: #ff0000;
     text-decoration: none;
     margin-left: 2rem;
     transition: color 0.3s;
 }
 
 .navbar a:hover {
-    color: #FFEE58;
+    color: #ee7e7e;
 }
 
 
