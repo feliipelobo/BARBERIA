@@ -467,3 +467,10 @@ sup {
     /* don't forget to set a duration! */
 
 }
+
+.form-label {
+
+    width: 100%;
+    text-align: left;
+    margin-bottom: .5rem;
+}

@@ -1,6 +1,7 @@
-.section-maps {
+.section-map {
+    margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-
+    justify-content: end;
+    align-items: end;
+    text-align: center;
 }
