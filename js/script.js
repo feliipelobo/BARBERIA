@@ -31,6 +31,11 @@ function enviarFormulario(event) {
   window.alert("Mensagem Recebida. Obrigado!");
 }
 
+function sendToWhatsApp(phone, message) {
+  const url = `https://wa.me/send?phone=${phone}&text=${encodeURIComponent(message)}`;
+  window.open(url, '_blank');
+}
+
 
 
 
